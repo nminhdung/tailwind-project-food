@@ -23,7 +23,7 @@ const Navbar = () => {
           Best <span className="font-bold">Food</span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
-          <p className="bg-black text-white rounded-full p-2">Delivery</p>
+          <p className="bg-orange-500 text-white rounded-full p-2">Delivery</p>
           <p className="p-2">Pickup</p>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
       {/* Search input */}
       {/* Card */}
-      <button className="bg-black text-white hidden md:flex items-center py-2 gap-2 rounded-full cursor-pointer">
+      <button className="bg-orange-500 text-white hidden md:flex items-center py-2 gap-2 rounded-full cursor-pointer border-none">
         <BsFillCartFill size={20} />
         Cart
       </button>
